@@ -1,7 +1,9 @@
-const Page = ({ params }: { params: { id: string } }) => {
-  const { id } = params;
-
-  return <h1>User Profile: {id}</h1>;
-};
-
-export default Page;
+export default function Page() {
+  return (
+    <>
+      <div>
+        <h1>Ini Halaman Profile</h1>
+      </div>
+    </>
+  );
+}
